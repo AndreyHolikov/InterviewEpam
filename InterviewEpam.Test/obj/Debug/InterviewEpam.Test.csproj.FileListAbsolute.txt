@@ -7,3 +7,12 @@ H:\__Project 2017\Applications VS\InterviewEpam\InterviewEpam.Test\bin\Debug\ru\
 H:\__Project 2017\Applications VS\InterviewEpam\InterviewEpam.Test\obj\Debug\InterviewEpam.Test.csprojResolveAssemblyReference.cache
 H:\__Project 2017\Applications VS\InterviewEpam\InterviewEpam.Test\obj\Debug\InterviewEpam.Test.dll
 H:\__Project 2017\Applications VS\InterviewEpam\InterviewEpam.Test\obj\Debug\InterviewEpam.Test.pdb
+E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam.Test\obj\Debug\InterviewEpam.Test.csprojResolveAssemblyReference.cache
+E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam.Test\obj\Debug\InterviewEpam.Test.dll
+E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam.Test\obj\Debug\InterviewEpam.Test.pdb
+E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam.Test\bin\Debug\InterviewEpam.Test.dll
+E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam.Test\bin\Debug\InterviewEpam.Test.pdb
+E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam.Test\bin\Debug\InterviewEpam.exe
+E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam.Test\bin\Debug\InterviewEpam.pdb
+E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam.Test\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll

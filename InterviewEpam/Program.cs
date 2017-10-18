@@ -16,12 +16,13 @@ namespace InterviewEpam
 
             var searchEngines = new List<ISearchEngine>
             {
-                new SearchEngine(),
                 new Phone(),
                 new Book(),
                 new City(),
                 new User()
             };
+
+            
 
             Console.WriteLine("Query :" + query);
             foreach (var searchEngine in searchEngines)
@@ -33,6 +34,9 @@ namespace InterviewEpam
                     Console.WriteLine(result);
                 }
             }
+
+            //SearchEngine searchEngineDI = new SearchEngine(new Phone());
+            //var results = searchEngineDI.Search(query);
 
             Console.ReadLine();
         }
