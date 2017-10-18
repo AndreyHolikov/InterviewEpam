@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewEpam", "InterviewE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewEpam.Test", "InterviewEpam.Test\InterviewEpam.Test.csproj", "{A8991773-AB34-4FA2-A0C4-907527DA6B43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityExample", "UnityExample\UnityExample\UnityExample.csproj", "{D1A2C140-6D97-4033-A8FD-B2F320534B2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A8991773-AB34-4FA2-A0C4-907527DA6B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8991773-AB34-4FA2-A0C4-907527DA6B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8991773-AB34-4FA2-A0C4-907527DA6B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A2C140-6D97-4033-A8FD-B2F320534B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A2C140-6D97-4033-A8FD-B2F320534B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A2C140-6D97-4033-A8FD-B2F320534B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A2C140-6D97-4033-A8FD-B2F320534B2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

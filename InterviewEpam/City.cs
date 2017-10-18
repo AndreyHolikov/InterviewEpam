@@ -9,13 +9,22 @@ namespace InterviewEpam
 {
     class City : ISearchEngine
     {
-        string file = "city.xml";
+        public string File { get; set; }
+        public XDocument xdoc { get; set; }
+
+        public City()
+        {
+            File = "city.xml";
+        }
+
+        public void LoadFile()
+        {
+            xdoc = XDocument.Load(File);
+        }
 
         public List<string> Search(string query)
         {
             List<string> result = new List<string> { };
-
-            XDocument xdoc = XDocument.Load(file);
 
             foreach (XElement xElement in xdoc.Element("cities").Elements())
             {
@@ -23,7 +32,7 @@ namespace InterviewEpam
                 {
                     if (xAttribute.Value.IndexOf(query) > 0)
                     {
-                        result.Add("File: " + file);
+                        result.Add("File: " + File);
                         result.Add(xElement.Name.ToString() + ":" + xElement.Value.ToString());
                         result.Add(xAttribute.Name.ToString() + ":" + xAttribute.Value.ToString());
                         result.Add("");

@@ -7,8 +7,18 @@ using System.Xml.Linq;
 
 namespace InterviewEpam
 {
-    interface ISearchEngine
+    public interface ISearchEngine
     {
+        #region ISearchEngine Members
+
+        string File { get; set; }
+        XDocument xdoc { get; set; }
+
+        #endregion
+
+        void LoadFile();
         List<string> Search(string query);
+
+        
     }
 }

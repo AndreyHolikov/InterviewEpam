@@ -10,3 +10,7 @@ E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam\obj\D
 E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam\bin\Debug\InterviewEpam.exe
 E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam\bin\Debug\InterviewEpam.pdb
 E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam\obj\Debug\InterviewEpam.csprojResolveAssemblyReference.cache
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\InterviewEpam.exe.config
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\obj\Debug\InterviewEpam.exe
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\obj\Debug\InterviewEpam.pdb
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\obj\Debug\InterviewEpam.csprojResolveAssemblyReference.cache

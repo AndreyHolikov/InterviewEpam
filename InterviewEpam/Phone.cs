@@ -9,13 +9,24 @@ namespace InterviewEpam
 {
     class Phone: ISearchEngine
     {
-        string file = "phone.xml";
+        public string File { get; set; }
+        public XDocument xdoc { get; set; }
+
+        public Phone()
+        {
+            File = "phone.xml";
+        }
+
+        public void LoadFile()
+        {
+            xdoc = XDocument.Load(File);
+        }
 
         public List<string> Search(string query)
         {
             List<string> result = new List<string> { };
 
-            XDocument xdoc = XDocument.Load(file);
+            
 
             foreach (XElement phoneElement in xdoc.Element("phones").Elements("phone"))
             {
@@ -25,7 +36,7 @@ namespace InterviewEpam
 
                 if (nameAttribute.Value.IndexOf(query)>0 || companyElement.Value.IndexOf(query) > 0 || priceElement.Value.IndexOf(query) > 0)
                 {
-                    result.Add("File: " + file);
+                    result.Add("File: " + File);
 
                     result.Add("Смартфон: " + nameAttribute.Value);
                     result.Add("Компания: " + companyElement.Value);
