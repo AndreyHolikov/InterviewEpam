@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<users>
+  <person>
+    <name>Manish</name>
+    <post>Java Developer</post>
+    <department>Development</department>
+    <mobileno>8785685868</mobileno>
+    <city>Delhi</city>
+    <age>26</age>
+  </person>
+  <person>
+    <name>Rahul</name>
+    <post>Manager</post>
+    <department>Account</department>
+    <mobileno>453543546</mobileno>
+    <city>Banglore</city>
+    <age>30</age>
+  </person>
+  <person>
+    <name>Ritesh</name>
+    <post>PHP Developer</post>
+    <department>Development</department>
+    <mobileno>567457457</mobileno>
+    <city>Mumbai</city>
+    <age>28</age>
+  </person>
+  <person>
+    <name>Amit</name>
+    <post>Engineer</post>
+    <department>Civil</department>
+    <mobileno>435464666</mobileno>
+    <city>Noida</city>
+    <age>35</age>
+  </person>
+</users>

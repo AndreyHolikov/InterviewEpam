@@ -1,0 +1,6 @@
+H:\__Project 2017\Applications VS\InterviewEpam\InterviewEpam\bin\Debug\InterviewEpam.exe.config
+H:\__Project 2017\Applications VS\InterviewEpam\InterviewEpam\bin\Debug\InterviewEpam.exe
+H:\__Project 2017\Applications VS\InterviewEpam\InterviewEpam\bin\Debug\InterviewEpam.pdb
+H:\__Project 2017\Applications VS\InterviewEpam\InterviewEpam\obj\Debug\InterviewEpam.csprojResolveAssemblyReference.cache
+H:\__Project 2017\Applications VS\InterviewEpam\InterviewEpam\obj\Debug\InterviewEpam.exe
+H:\__Project 2017\Applications VS\InterviewEpam\InterviewEpam\obj\Debug\InterviewEpam.pdb
