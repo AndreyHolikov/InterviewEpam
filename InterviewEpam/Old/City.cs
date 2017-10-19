@@ -5,16 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace InterviewEpam
+namespace InterviewEpam.Old
 {
-    class Book : ISearchEngine
+    class City : ISearchEngine
     {
         public string File { get; set; }
         public XDocument xdoc { get; set; }
 
-        public Book()
+        public City()
         {
-            File = "book.xml";
+            File = "city.xml";
         }
 
         public void LoadFile()
@@ -26,11 +26,11 @@ namespace InterviewEpam
         {
             List<string> result = new List<string> { };
 
-            foreach (XElement xElement in xdoc.Element("catalog").Elements())
+            foreach (XElement xElement in xdoc.Element("cities").Elements())
             {
-                foreach(XAttribute xAttribute in xElement.Attributes())
+                foreach (XAttribute xAttribute in xElement.Attributes())
                 {
-                    if(xAttribute.Value.IndexOf(query) > 0)
+                    if (xAttribute.Value.IndexOf(query) > 0)
                     {
                         result.Add("File: " + File);
                         result.Add(xElement.Name.ToString() + ":" + xElement.Value.ToString());
@@ -44,15 +44,15 @@ namespace InterviewEpam
                 {
                     if (xElementChild.Value.IndexOf(query) > 0)
                     {
-                        result.Add("File: " + file);
+                        result.Add("File: " + File);
                         result.Add(xElement.Name.ToString() + ":" + xElement.Value.ToString());
                         result.Add(xElementChild.Name.ToString() + ":" + xElementChild.Value.ToString());
                         result.Add("");
                         break;
                     }
                 }
-              
-                
+
+
             }
 
             return result;

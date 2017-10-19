@@ -59,14 +59,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
-    <Compile Include="City.cs" />
-    <Compile Include="ISearchEngine.cs" />
-    <Compile Include="Phone.cs" />
+    <Compile Include="BusinessComponents\Components\CityDataManager.cs" />
+    <Compile Include="BusinessComponents\Components\PhoneDataManager.cs" />
+    <Compile Include="BusinessComponents\Components\UserDataManager.cs" />
+    <Compile Include="Old\Book.cs" />
+    <Compile Include="BusinessComponents\Components\BookDataManager.cs" />
+    <Compile Include="BusinessComponents\Components\DataManager.cs" />
+    <Compile Include="BusinessComponents\Components\DataManagerFactory.cs" />
+    <Compile Include="BusinessComponents\Interfaces\IDataManager.cs" />
+    <Compile Include="BusinessEntities\Book.cs" />
+    <Compile Include="BusinessEntities\City.cs" />
+    <Compile Include="BusinessEntities\DataManagerType.cs" />
+    <Compile Include="BusinessEntities\Entity.cs" />
+    <Compile Include="BusinessEntities\Phone.cs" />
+    <Compile Include="BusinessEntities\User.cs" />
+    <Compile Include="Old\City.cs" />
+    <Compile Include="Old\ISearchEngine.cs" />
+    <Compile Include="Old\Phone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchEngine.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="Old\SearchEngine.cs" />
+    <Compile Include="Old\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -88,6 +101,7 @@
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -12,6 +12,13 @@ namespace InterviewEpam
     {
         static void Main(string[] args)
         {
+
+
+            Console.ReadLine();
+        }
+
+        private void Main_2()
+        {
             string query = "at";
             //query = Console.ReadLine();
 
@@ -23,22 +30,19 @@ namespace InterviewEpam
                 new User()
             };
 
-            
+
 
             Console.WriteLine("Query :" + query);
             foreach (var searchEngine in searchEngines)
             {
                 var results = searchEngine.Search(query);
 
-                foreach(string result in results)
+                foreach (string result in results)
                 {
                     Console.WriteLine(result);
                 }
             }
-
-            Console.ReadLine();
         }
-
 
         private void DI()
         {

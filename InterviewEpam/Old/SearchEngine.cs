@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterviewEpam
+namespace InterviewEpam.Old
 {
     public class SearchEngine
     {
