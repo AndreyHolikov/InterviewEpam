@@ -8,5 +8,8 @@ namespace InterviewEpam.BusinessEntities
 {
     public class Phone : Entity
     {
+        public string Name { get; set; }
+        public string Company { get; set; }
+        public string Price { get; set; }
     }
 }

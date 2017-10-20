@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Microsoft.Practices.Unity;
+using InterviewEpam.BusinessEntities;
+using InterviewEpam.BusinessComponents.Components;
+using InterviewEpam.BusinessComponents.Interfaces;
 
 namespace InterviewEpam
 {
@@ -12,11 +15,29 @@ namespace InterviewEpam
     {
         static void Main(string[] args)
         {
+            // TODO: перенести в тесты.
+            string query = "at";
+            //query = Console.ReadLine();
 
+
+            // TODO: Реализовать через фабрику.
+            var dataManagers = new List<IDataManager>
+            {
+                new BookDataManager(),
+                new CityDataManager(),
+                new PhoneDataManager(),
+                new UserDataManager()
+            };
+
+            foreach(DataManager dataManager in dataManagers)
+            {
+                dataManager.Search(query);
+            }
 
             Console.ReadLine();
         }
 
+        // Old version
         private void Main_2()
         {
             string query = "at";
@@ -44,6 +65,7 @@ namespace InterviewEpam
             }
         }
 
+        // Old version
         private void DI()
         {
             #region Registry

@@ -7,7 +7,7 @@ using InterviewEpam.BusinessEntities;
 
 namespace InterviewEpam.BusinessComponents.Interfaces
 {
-    interface IDataManager
+    public interface IDataManager
     {
         List<string> Search(string query);
         List<Entity> GetAll();

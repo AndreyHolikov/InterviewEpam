@@ -13,15 +13,21 @@ namespace InterviewEpam.BusinessComponents.Components
     {
         public XDocument Xdoc;
 
+
         public List<string> Search(string query)
         {
+            string file = "????";
+            // TODO: откуда взять название файла? из DataManagerFactory?
+            LoadXmlFile(file);
             List<Entity> entities = this.GetAll();
 
             return this.Search(query, entities);
         }
 
+
         public abstract List<Entity> GetAll();
         public abstract List<string> Search(string query, IEnumerable<Entity> entities);
+
 
         public void LoadXmlFile(string file)
         {

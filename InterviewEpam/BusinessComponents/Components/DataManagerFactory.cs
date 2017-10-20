@@ -9,7 +9,7 @@ namespace InterviewEpam.BusinessComponents.Components
 {
     class DataManagerFactory
     {
-        public BookDataManager CreateDataManager(DataManagerType dataManagerType)
+        public DataManager CreateDataManager(DataManagerType dataManagerType)
         {
             return new BookDataManager();
         }
