@@ -11,14 +11,19 @@ namespace InterviewEpam.BusinessComponents.Components
 {
     public abstract class DataManager : IDataManager
     {
+        // Зачем его делать abstract? (ты советовал в Viber`e)
+        private string FileName { get; set; } 
         public XDocument Xdoc;
 
+        public DataManager(string fileName)
+        {
+            this.FileName = "Xml/" + fileName;
+            LoadXmlFile();
+        }
 
         public List<string> Search(string query)
         {
-            string file = "????";
-            // TODO: откуда взять название файла? из DataManagerFactory?
-            LoadXmlFile(file);
+            LoadXmlFile();
             List<Entity> entities = this.GetAll();
 
             return this.Search(query, entities);
@@ -29,9 +34,9 @@ namespace InterviewEpam.BusinessComponents.Components
         public abstract List<string> Search(string query, IEnumerable<Entity> entities);
 
 
-        public void LoadXmlFile(string file)
+        private void LoadXmlFile()
         {
-            Xdoc = XDocument.Load(file);
+            Xdoc = XDocument.Load(FileName);
         }
     }
 }

@@ -19,9 +19,7 @@ E:\__Project 2017\Application VS\InterviewEpam\InterviewEpam\InterviewEpam.Test\
 H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\bin\Debug\InterviewEpam.Test.dll
 H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\bin\Debug\InterviewEpam.Test.pdb
 H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\bin\Debug\InterviewEpam.exe
-H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\bin\Debug\InterviewEpam.pdb
-H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\obj\Debug\InterviewEpam.Test.csprojResolveAssemblyReference.cache
 H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\obj\Debug\InterviewEpam.Test.dll
 H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\obj\Debug\InterviewEpam.Test.pdb

@@ -8,17 +8,11 @@ using InterviewEpam.BusinessComponents.Components;
 
 namespace InterviewEpam.BusinessEntities
 {
-    public class DataManagerType : IEnumerable // TODO: Нужен ли IEnumerable ?
+    public enum DataManagerType
     {
-        //public List<Type> types = new List<Type>() {
-        //   BookDataManager, CityDataManager, PhoneDataManager, UserDataManager };
-
-        public List<string> types = new List<string>() {
-           "BookDataManager", "CityDataManager", "PhoneDataManager", "UserDataManager" };
-
-        public IEnumerator GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
+        Book,
+        City,
+        Phone,
+        User
     }
 }

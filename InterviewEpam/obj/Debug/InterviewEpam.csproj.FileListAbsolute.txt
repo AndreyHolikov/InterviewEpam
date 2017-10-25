@@ -14,3 +14,14 @@ H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\Inter
 H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\obj\Debug\InterviewEpam.exe
 H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\obj\Debug\InterviewEpam.pdb
 H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\obj\Debug\InterviewEpam.csprojResolveAssemblyReference.cache
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\InterviewEpam.exe
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\InterviewEpam.pdb
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\Microsoft.Practices.Unity.dll
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\Microsoft.Practices.Unity.xml
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml

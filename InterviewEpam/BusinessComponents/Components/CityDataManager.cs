@@ -10,6 +10,9 @@ namespace InterviewEpam.BusinessComponents.Components
 {
     public class CityDataManager : DataManager
     {
+        public CityDataManager(string fileName) : base(fileName)
+        { }
+
         public override List<Entity> GetAll()
         {
             List<Entity> entities = new List<Entity>();

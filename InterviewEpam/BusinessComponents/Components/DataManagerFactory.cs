@@ -7,11 +7,32 @@ using InterviewEpam.BusinessEntities;
 
 namespace InterviewEpam.BusinessComponents.Components
 {
-    class DataManagerFactory
+    public static class DataManagerFactory //Зачем делать abstract?
     {
-        public DataManager CreateDataManager(DataManagerType dataManagerType)
+        public static DataManager CreateDataManager(DataManagerType dataManagerType) // FactoryMethod
         {
-            return new BookDataManager();
+            DataManager returnDataManager;
+            string fileName = dataManagerType.ToString() + ".xml";
+            switch ( dataManagerType )
+            {
+                case DataManagerType.Book:
+                    returnDataManager = new BookDataManager(fileName);
+                    break;
+                case DataManagerType.City:
+                    returnDataManager = new CityDataManager(fileName);
+                    break;
+                case DataManagerType.Phone:
+                    returnDataManager = new PhoneDataManager(fileName);
+                    break;
+                case DataManagerType.User:
+                    returnDataManager = new UserDataManager(fileName);
+                    break;
+                default:
+                    // TODO: Проверить как точно генерируется исключение.
+                    throw new Exception();
+            }
+            //Заполняем название файла.
+            return returnDataManager;
         }
     }
 }
