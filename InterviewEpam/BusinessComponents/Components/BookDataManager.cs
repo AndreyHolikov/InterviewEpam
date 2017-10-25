@@ -37,20 +37,6 @@ namespace InterviewEpam.BusinessComponents.Components
 
         public override List<string> Search(string query, IEnumerable<Entity> entities)
         {
-            List<string> results = new List<string>();
-            //Имя теста:	Search
-            //            Полное имя теста: InterviewEpam.Test.BookDataManagerUnitTest1.Search
-            //          Источник теста: H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\BookDataManagerUnitTest1.cs : строка 28
-            //Выходные данные теста: Сбой
-            //Продолжительность теста: 0:00:00,0300652
-
-            //Результат Трассировка стека:
-            //            в InterviewEpam.BusinessComponents.Components.BookDataManager.Search(String query, IEnumerable`1 entities) в H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam\BusinessComponents\Components\BookDataManager.cs:строка 41
-            //   в InterviewEpam.Test.BookDataManagerUnitTest1.Search() в H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.Test\BookDataManagerUnitTest1.cs:строка 37
-            //Результат Сообщение:	
-            //Метод проверки InterviewEpam.Test.BookDataManagerUnitTest1.Search выдал исключение:
-            //            System.InvalidCastException: Не удалось привести тип объекта "System.Collections.Generic.List`1[InterviewEpam.BusinessEntities.Entity]" к типу "System.Collections.Generic.IEnumerable`1[InterviewEpam.BusinessEntities.Book]"..
-
             //List<Entity> listEntity = new List<Entity>(entities);
             List<Book> books = new List<Book>();
             foreach (Entity entitiy in entities)
@@ -58,15 +44,18 @@ namespace InterviewEpam.BusinessComponents.Components
                 books.Add((Book)entitiy);
             }
 
-            var resultEntities = from entity in books
+            IEnumerable<string> resultEntities = from entity in books
                                  where entity.Title == query 
                                         || entity.Author == query
                                         || entity.Genre == query
                                         || entity.Price == query
                                         || entity.Description == query
                                  select entity.Title;
-
-            results = resultEntities.ToList<string>();
+            List<string> results = new List<string>();
+            foreach (string result in resultEntities)
+            {
+                results.Add(result);
+            }
             return results;
         }
     }
