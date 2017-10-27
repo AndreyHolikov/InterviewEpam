@@ -52,7 +52,7 @@ namespace InterviewEpam.BusinessComponents.Components
                                         || entity.Description == query
                                  select entity.Title;
             List<string> results = new List<string>();
-            foreach (string result in resultEntities)
+            foreach (var result in resultEntities)
             {
                 results.Add(result);
             }
