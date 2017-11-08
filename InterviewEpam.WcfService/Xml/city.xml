@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cities>
+  <city>
+    <cityName>Atlanta</cityName>
+    <cityCountry>USA</cityCountry>
+  </city>
+  <city>
+    <cityName>Sydney</cityName>
+    <cityCountry>Australia</cityCountry>
+  </city>
+  <city>
+    <cityName>Athens</cityName>
+    <cityCountry>Greece</cityCountry>
+  </city>
+</cities>
