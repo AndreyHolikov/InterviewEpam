@@ -1,0 +1,1 @@
+H:\__Project 2017\Applications VS\ZpnInterviewEpam\InterviewEpam.ConsoleClient\bin\Debug\InterviewEpam.ConsoleClient.exe.config
